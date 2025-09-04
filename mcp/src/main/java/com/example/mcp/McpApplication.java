@@ -30,8 +30,7 @@ public class McpApplication {
                         .builder()
                         .toolObjects(recognitionTool)
                         .build()
-                        .getToolCallbacks()
-        );
+                        .getToolCallbacks());
         return McpToolUtils.toSyncToolSpecification(list);
     }
 
