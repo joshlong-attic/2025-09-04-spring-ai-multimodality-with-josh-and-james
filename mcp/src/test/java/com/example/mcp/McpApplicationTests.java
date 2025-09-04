@@ -1,10 +1,10 @@
-package com.example.image_mcp_analyser;
+package com.example.mcp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ImageMcpAnalyserApplicationTests {
+class McpApplicationTests {
 
 	@Test
 	void contextLoads() {

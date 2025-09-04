@@ -1,4 +1,4 @@
-package com.example.image_mcp_analyser;
+package com.example.mcp;
 
 import io.modelcontextprotocol.server.McpServerFeatures;
 import org.springframework.ai.chat.client.ChatClient;
@@ -9,23 +9,19 @@ import org.springframework.ai.tool.method.MethodToolCallbackProvider;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.core.io.Resource;
-import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Service;
 import org.springframework.util.MimeTypeUtils;
 
-import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URL;
 import java.util.List;
 
 @SpringBootApplication
-public class ImageMcpAnalyserApplication {
+public class McpApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ImageMcpAnalyserApplication.class, args);
+        SpringApplication.run(McpApplication.class, args);
     }
-
 
     @Bean
     List<McpServerFeatures.SyncToolSpecification> myToolSpecs(ImageRecognitionTool recognitionTool) {

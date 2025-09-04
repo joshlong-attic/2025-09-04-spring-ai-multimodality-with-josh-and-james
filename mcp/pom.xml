@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>image-mcp-analyser</artifactId>
+	<artifactId>mcp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>image-mcp-analyser</name>
+	<name>mcp</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
